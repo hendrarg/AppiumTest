@@ -35,7 +35,8 @@ public class BaseTest {
 		
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("HendraPhone");
-		options.setApp("//Users//hendrarg//eclipse-workspace//Appium//src//test//java//resources//ApiDemos-debug.apk");
+//		options.setApp("//Users//hendrarg//eclipse-workspace//Appium//src//test//java//resources//ApiDemos-debug.apk");
+		options.setApp("//Users//hendrarg//eclipse-workspace//Appium//src//test//java//resources//General-Store.apk");
 		
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -65,6 +66,14 @@ public class BaseTest {
 			    "elementId", ((RemoteWebElement)element).getId(),
 			    "direction", direction,
 			    "percent", 0.75
+			));
+	}
+	
+	public void dragAction(WebElement element) {
+		((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
+			    "elementId", ((RemoteWebElement) element).getId(),
+			    "endX", 645,
+			    "endY", 584
 			));
 	}
 		

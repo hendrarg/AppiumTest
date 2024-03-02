@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-01T23:57:28 WIB" name="Default suite" finished-at="2024-03-01T23:57:47 WIB" duration-ms="19579">
+  <suite started-at="2024-03-02T20:58:39 WIB" name="Default suite" finished-at="2024-03-02T20:59:28 WIB" duration-ms="48844">
     <groups>
     </groups>
-    <test started-at="2024-03-01T23:57:28 WIB" name="Default test" finished-at="2024-03-01T23:57:47 WIB" duration-ms="19579">
-      <class name="mobiletest.Appium.AppiumBasics">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobiletest.Appium.AppiumBasics@1ffaf86]" started-at="2024-03-01T23:57:28 WIB" name="ConfigureAppium" finished-at="2024-03-01T23:57:38 WIB" duration-ms="10653" status="PASS">
+    <test started-at="2024-03-02T20:58:39 WIB" name="Default test" finished-at="2024-03-02T20:59:28 WIB" duration-ms="48844">
+      <class name="mobiletest.Appium.eComerce_Tc1">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobiletest.Appium.eComerce_Tc1@6574a52c]" started-at="2024-03-02T20:58:39 WIB" name="ConfigureAppium" finished-at="2024-03-02T20:58:49 WIB" duration-ms="9289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="wifiSettingName()[pri:0, instance:mobiletest.Appium.AppiumBasics@1ffaf86]" started-at="2024-03-01T23:57:38 WIB" name="wifiSettingName" finished-at="2024-03-01T23:57:47 WIB" duration-ms="8189" status="PASS">
+        <test-method signature="fillForm()[pri:0, instance:mobiletest.Appium.eComerce_Tc1@6574a52c]" started-at="2024-03-02T20:58:49 WIB" name="fillForm" finished-at="2024-03-02T20:59:27 WIB" duration-ms="38587" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wifiSettingName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mobiletest.Appium.AppiumBasics@1ffaf86]" started-at="2024-03-01T23:57:47 WIB" name="tearDown" finished-at="2024-03-01T23:57:47 WIB" duration-ms="714" status="PASS">
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mobiletest.Appium.eComerce_Tc1@6574a52c]" started-at="2024-03-02T20:59:27 WIB" name="tearDown" finished-at="2024-03-02T20:59:28 WIB" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- mobiletest.Appium.AppiumBasics -->
+      </class> <!-- mobiletest.Appium.eComerce_Tc1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
